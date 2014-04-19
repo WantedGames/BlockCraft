@@ -1103,10 +1103,12 @@ end
 function tabbuilder.tab_credits()
 	local logofile = menu.defaulttexturedir .. "logo.png"
 	return	"vertlabel[0,-0.5;CREDITS]" ..
-			"label[0.5,3;Minetest " .. engine.get_version() .. "]" ..
+			"label[0.5,3;BlockCraft " .. engine.get_version() .. "]" ..
 			"label[0.5,3.3;http://minetest.net]" ..
 			"image[0.5,1;" .. engine.formspec_escape(logofile) .. "]" ..
 			"textlist[3.5,-0.25;8.5,5.8;list_credits;" ..
+			"#FFFF00" .. fgettext("BlockCraft Creators") .."," ..
+			"Wanted Games (celeron55) <wantedgames5@gmail.com>,"..
 			"#FFFF00" .. fgettext("Core Developers") .."," ..
 			"Perttu Ahola (celeron55) <celeron55@gmail.com>,"..
 			"Ryan Kwolek (kwolekr) <kwolekr@minetest.net>,"..
