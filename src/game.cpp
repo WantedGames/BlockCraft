@@ -1524,7 +1524,7 @@ void the_game(bool &kill, bool random_input, InputHandler *input,
 
 	// First line of debug text
 	gui::IGUIStaticText *guitext = guienv->addStaticText(
-			L"Minetest",
+			L"BlockCraft",
 			core::rect<s32>(5, 5, 795, 5+text_height),
 			false, false);
 	// Second line of debug text
